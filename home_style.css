@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,500;1,700&display=swap');
+
+body, html {
+  margin: 0;
+  height: 100%;
+  text-align: center;
+  font-family: 'open sans';
+  font-size: 18px;
+}
+
+.navigation {
+  background-color: #add8e6;;
+  overflow: hidden;
+  position: sticky;
+  height: 75px;
+  padding-top: 32px;
+}
+
+a:link, a:visited {
+  background-color: #333333;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+a:hover, a:active {
+  background-color: #575656
+}
+
+.heroSection {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("heroImage.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75%;
+  position: relative;
+  padding: 100px;
+  font-family: 'Roboto';
+  font-size: 48px;
+  color: white;
+}
+
+.introParagraph p {
+  font-size: 20px;
+  line-height: 40px;
+  padding: 50px;
+}
+
+.footer {
+  background-color: #add8e6;
+}
+
+.footerLinks {
+  padding: 4%;
+}
+
+.footerLinks a {
+  color: #white;
+}
+
+.footerLinks a:visited {
+  color: #909090;
+}

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,500;1,700&display=swap');
+
+body, html {
+  margin: 0;
+  height: 100%;
+  text-align: center;
+  font-family: 'open sans';
+  font-size: 18px;
+  background-color: #191919;
+}
+
+.navigation {
+  background-color: #add8e6;;
+  overflow: hidden;
+  position: sticky;
+  height: 75px;
+  padding-top: 32px;
+}
+
+a:link, a:visited {
+  background-color: #333333;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+a:hover, a:active {
+  background-color: #575656
+}
+
+.header {
+  font-size: 48px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header img {
+  height: 3%;
+  width: 3%;
+  padding-right: 50px;
+}
+
+.container {
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 150px;
+}
+
+#containerLoganPaul {
+  background-color: #191919;
+  color: #f9f9f9;
+  padding-top: 50px;
+}
+
+#containerSamPepper {
+  background-color: #909090;
+}
+
+#containerImJayStation {
+  background-color: #191919;
+  color: #f9f9f9;
+}
+
+#containerMonalisaPerez {
+  background-color: #909090;
+}
+
+.container img {
+  max-width: 600px;
+  max-height: 600px;
+}
+
+.text h1 {
+font-size: 24px;
+padding-left: 40px;
+}
+
+.text p {
+  font-size: 16px;
+  padding-left: 40px;
+}
+
+.footer {
+  background-color: #add8e6;
+}
+
+.footerLinks {
+  padding: 4%;
+}
+
+.footerLinks a {
+  color: #white;
+}
+
+.footerLinks a:visited {
+  color: #909090;
+}

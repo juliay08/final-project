@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,500;1,700&display=swap');
+
+body, html {
+  margin: 0;
+  height: 100%;
+  text-align: center;
+  font-family: 'open sans';
+  font-size: 18px;
+  background-color: #191919;
+  color: white;
+}
+
+.navigation {
+  background-image: linear-gradient(to right, #feda75 , #fa7e1e, #d62976, #962fbf);
+  overflow: hidden;
+  position: sticky;
+  height: 75px;
+  padding-top: 32px;
+}
+
+a:link, a:visited {
+  background-color: #333333;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+a:hover, a:active {
+  background-color: #575656
+}
+
+.header {
+  font-size: 48px;
+  background: #FEDA75;
+  background: linear-gradient(to right, #FEDA75 0%, #FA7E1E 31%, #D62976 67%, #962FBF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header img {
+  height: 100px;
+  width: 100px;
+  padding-right: 50px;
+}
+
+.storyHighlight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.storyHighlight img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50em;
+  background: linear-gradient(to right, #feda75, #fa7e1e, #d62976, #962fbf) border-box;
+  border: 4px solid transparent;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 33.3%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 4px;
+  vertical-align: middle;
+  width: 250px;
+  height: 250px;
+}
+
+.postBlurb {
+  text-align: left;
+  padding-left: 340px;
+  padding-right: 340px;
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 100px;
+}
+
+.postBlurb h1 {
+  font-weight: bold;
+  font-size: 24px;
+  padding-right: 20px;
+}
+
+.postBlurb p {
+  font-weight: lighter;
+}
+
+.footer {
+  background-image: linear-gradient(to right, #feda75 , #fa7e1e, #d62976, #962fbf);
+}
+
+.footerLinks {
+  padding: 4%;
+}
+
+.footerLinks a {
+  color: #white;
+}
+
+.footerLinks a:visited {
+  color: #909090;
+}
